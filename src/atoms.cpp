@@ -7,4 +7,6 @@ void Atoms::add_atom(double rx, double ry, double rz, double vx, double vy, doub
   x.push_back( { rx, ry, rz } );
   v.push_back( { vx, vy, vz } );
   f.push_back( { fx, fy, fz } );
+
+  natoms++;
 }

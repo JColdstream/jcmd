@@ -22,7 +22,7 @@ int main() {
   // f.push_back({0,0,-1.0});
   // f.push_back({0,0,1.0});
 
-  lj.force(0,1,atoms.x,atoms.f,2.5);
+  lj.force(0,1,atoms,2.5);
 
   return 0;
 }
